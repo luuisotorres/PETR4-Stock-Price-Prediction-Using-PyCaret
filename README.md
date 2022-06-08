@@ -16,7 +16,7 @@ Este projeto tem fins de estudo apenas e **não** representa indicação de comp
 
 # Desenvolvimento
 
-As ações escolhidas para estudo foram as ações preferenciais da emresa Petrobrás, reigstradas na B3 pelo *ticker* PETR4.<br>
+As ações escolhidas para estudo foram as ações preferenciais da empresa Petrobrás, reigstradas na B3 pelo *ticker* PETR4.<br>
 A biblioteca **Pandas** foi utilizada para a manipulação de dados dentro do *dataframe*, para remover e acrescentar dados, enquanto a biblioteca **yfinance** foi utilizada para acessar os dados das ações da Petrobrás disponíveis no site **Yahoo Finance**.<br>
 Por fim, a biblioteca **PyCaret** foi utilizada para comparar, testar, realizar melhorias nos modelos, plotar gráficos relevantes e, enfim, realizar as predições dos preços dos últimos 253 pregões da PETR4. A biblioteca **Plotly** foi utilizada para plotar o gráfico final de comparação entre os preços de fechamento da PETR4 e os preços previstos pelo modelo **Bayesian Ridge**, que obteve as melhores métricas de acurácia diante de outros modelos testados pelo Pycaret.
 
