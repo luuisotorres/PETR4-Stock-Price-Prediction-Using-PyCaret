@@ -16,9 +16,17 @@ Este projeto tem fins de estudo apenas e **não** representa indicação de comp
 
 # Desenvolvimento
 
+## Obtendo e tratando os dados
+
 As ações escolhidas para estudo foram as ações preferenciais da empresa Petrobrás, reigstradas na B3 pelo *ticker* PETR4.<br>
 A biblioteca **Pandas** foi utilizada para a manipulação de dados dentro do *dataframe*, para remover e acrescentar dados, enquanto a biblioteca **yfinance** foi utilizada para acessar os dados das ações da Petrobrás disponíveis no site **Yahoo Finance**.<br>
-Por fim, a biblioteca **PyCaret** foi utilizada para comparar, testar, realizar melhorias nos modelos, plotar gráficos relevantes e, enfim, realizar as predições dos preços dos últimos 253 pregões da PETR4. A biblioteca **Plotly** foi utilizada para plotar o gráfico final de comparação entre os preços de fechamento da PETR4 e os preços previstos pelo modelo **Bayesian Ridge**, que obteve as melhores métricas de acurácia diante de outros modelos testados pelo Pycaret.
+
+## Criando o modelo de *machine learning*
+
+Dividimos o dataframe original em dois, criando um dataframe contendo os últimos 253 dias de pregão para que testássemos o desempenho de previsão do algoritmo com estes dados de fechamento.<br>
+Utilizamos a biblioteca **PyCaret** para configurar os dados para treinamento e comparamos as métricas de acurácia dos diferentes modelos de regressão disponíveis na biblioteca de regressão do Pycaret.<br>
+Após observarmos que o modelo **Bayesian Ridge** obteve as melhores métricas de acurácia diante dos outros testados pelo Pycaret, realizamos um *tuning* para melhorar ainda mais as métricas de acurácia e fizemos um último teste com os dados de treinamento para ver como o modelo se comportava.<br>
+Por fim, pudemos plotar gráficos relevantes e fazer as predições dos preços dos últimos 253 pregões da PETR4. A biblioteca **Plotly** foi utilizada para plotar o gráfico final de comparação entre os preços de fechamento da PETR4 e os preços previstos pelo modelo.
 
 --
 
