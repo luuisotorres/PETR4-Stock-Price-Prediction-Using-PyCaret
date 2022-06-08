@@ -24,7 +24,7 @@ Por fim, a biblioteca **PyCaret** foi utilizada para comparar, testar, realizar 
 
 # Conclusão
 
-A biblioteca PyCaret oferece facilidade e simplicidade à criação de modelos de machine learning, sendo bastante útil para aqueles que ainda são iniciantes na área, o que é o meu caso, permitindo alcançar resultados satisfatório com poucas linhas de código.<br>
+A biblioteca PyCaret oferece facilidade e simplicidade à criação de modelos de machine learning, sendo bastante útil para aqueles que ainda são iniciantes na área, o que é o meu caso, permitindo alcançar resultados satisfatórios com poucas linhas de código.<br>
 Neste estudo em específico, foi possível atingir um modelo que se ajustou muito bem aos dados analisados e que foi capaz de prever a direção dos preços de fechamento de PETR4 dos últimos 253 dias de forma bastante satisfatória.<br>
 É importante lembrar, entretanto, que diversos fatores estão presentes na flutuação de preços de ações, criptomoedas, commodities e demais ativos financeiros e que nenhum modelo matemático ou estatístico será capaz de prever notícias, eventos relevantes, guerras e demais outros fatores que instiguem o **medo** ou a **ganância** dos investidores.<br>
 Mais uma vez, reforço que este estudo **não é recomendação** de compra ou venda de quaisquer ativos financeiros.
