@@ -12,7 +12,7 @@ Este projeto apresenta um estudo inicial de como *machine learning* pode ser uti
 A biblioteca PyCaret foi utilizada, pois é uma excelente biblioteca para aqueles que estão iniciando com *machine learning*, por oferecer uma enorme facilidade para a criação de modelos, *tuning* e comparação entre o ajuste aos dados de diversos modelos.<br>
 Este projeto tem fins de estudo apenas e **não** representa indicação de compra ou venda qualquer ativo financeiro.<br>
 
---
+---
 
 # Desenvolvimento
 
@@ -28,7 +28,7 @@ Utilizamos a biblioteca **PyCaret** para configurar os dados para treinamento e 
 Após observarmos que o modelo **Bayesian Ridge** obteve as melhores métricas de acurácia diante dos outros testados pelo Pycaret, realizamos um *tuning* para melhorar ainda mais as métricas de acurácia e fizemos um último teste com os dados de treinamento para ver como o modelo se comportava.<br>
 Por fim, pudemos plotar gráficos relevantes e fazer as predições dos preços dos últimos 253 pregões da PETR4. A biblioteca **Plotly** foi utilizada para plotar o gráfico final de comparação entre os preços de fechamento da PETR4 e os preços previstos pelo modelo.
 
---
+---
 
 # Conclusão
 
