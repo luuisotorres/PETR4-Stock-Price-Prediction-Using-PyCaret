@@ -39,5 +39,11 @@ Mais uma vez, reforço que este estudo **não é recomendação** de compra ou v
 
 ---
 
+# LinkedIn 
+
+Publiquei em meu perfil no LinkedIn um artigo onde detalhei as motivações e o desenvolvimento deste projeto com o objetivo de explorar a biblioteca PyCaret para a utilização de Machine Learning para prever o preço de ações na bolsa de valores, que pode ser lido <a href = "https://www.linkedin.com/pulse/usando-intelig%25C3%25AAncia-artificial-para-prever-o-pre%25C3%25A7o-de-torres/?trackingId=BJGDGXz%2FQRSp%2BC%2Fe9Iezog%3D%3D">clicando neste link!</a>
+
+----
+
 ## Author:
 **Luís Fernando Torres**
